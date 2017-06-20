@@ -1,0 +1,35 @@
+/*======= begin map ======*/
+.map {
+  position: relative;
+}
+.yandex-map{
+  position: relative;
+  background: url("/img/bg/map.png") center center no-repeat;
+  background-size: cover;
+  height: 630px;
+  z-index: 1;
+}
+.map__bottom {
+  background: url("/img/bg/bg__map2.png" ) 0 0 no-repeat;
+  position: absolute;
+  top: 130px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: 2;
+}
+.map__contacts-title{
+  font-size: 36px;
+  font-family:'museo_sans_cyrl900';
+  text-transform: uppercase;
+}
+.logo__subtitle-grey {
+  color: $grey;
+  font-size: rem(21px);
+  font-family: 'museo_sans_cyrl700';
+}
+.map__contacts{
+  background-color: green;
+}
+
+/*======= end map ========*/

@@ -1,0 +1,54 @@
+/*======= begin outsorcing ======*/
+.outsorcing {
+  background: url("/img/bg/bg__outsorcing.png") center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height:800px;
+  position: relative;
+}
+
+.outsorcing__title{
+  font-size: rem(60px);
+  font-family:'museo_sans_cyrl900';
+  color: #fec15c;
+  text-align: center;
+  margin-top: 140px;
+  line-height: 68px;
+}
+.outsorcing__subtitle{
+  font-size: rem(60px);
+  font-family:'museo_sans_cyrl900';
+  color: #ffffff;
+  text-align: center;
+}
+.outsorcing__sale, .outsorcing__sale-subtitle{
+  font-size:rem(48px);
+  text-align: center;
+  color: #ffffff;
+}
+.outsorcing__subtitle{
+  margin-bottom: 31px;
+}
+.outsorcing__sale{
+  margin-top: 31px;
+}
+.outsorcing__btn{
+  margin-top: 18px;
+  margin-bottom: 68px;
+  text-align: center;
+
+}
+.outsorcing__btn-link{
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*======= end outsorcing ========*/

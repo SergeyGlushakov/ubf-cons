@@ -1,0 +1,42 @@
+/*======= begin media ======*/
+/* Для мобильных устройств */
+@media (min-width: 320px) AND (max-width: 543px) {
+  html {
+    font-size: 10px;
+  }
+
+}
+/* Для планшетов */
+@media (min-width: 544px) AND (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+
+
+
+}
+/* Для планшетов и ноутов*/
+@media (min-width: 768px) AND (max-width: 991px) {
+  html {
+    font-size: 14px;
+  }
+
+}
+
+
+/*Для планшетов и компов с маленьким разрешением*/
+@media (min-width: 992px) AND (max-width: 1199px) {
+
+  html {
+    font-size: 16px;
+  }
+
+}
+
+/* Для компьютеров */
+@media (min-width: 1200px) {
+
+
+}
+
+/*======= end media ========*/

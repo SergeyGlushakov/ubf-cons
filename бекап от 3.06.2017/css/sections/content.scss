@@ -1,0 +1,75 @@
+/*======= begin content ======*/
+.text-yellow {
+  color: $yellow;
+}
+.text-grey {
+  color: $grey;
+}
+.btn {
+  font-size: rem(24px);
+  font-family:'museo_sans_cyrl900';
+  color: #fec15c;
+  text-transform: uppercase;
+  padding: 20px 75px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(254, 193, 92);
+  border-radius: 9px;
+}
+.line__title {
+  display: block;
+  width: 166px;
+  height: 11px;
+  background-color: #007e97 ;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.down-arrow{
+  text-align: center;
+  margin-bottom: 64px;
+}
+.features__triangle{
+  width: 0;
+  height: 0;
+  border-left: 94px solid transparent;
+  border-right: 94px solid transparent;
+  border-top: 94px solid $white;
+  margin: 0 auto;
+}
+.reviews__triangle{
+  width: 0;
+  height: 0;
+  border-left: 82px solid transparent;
+  border-right: 82px solid transparent;
+  border-top: 75px solid $white;
+  margin: 0 auto;
+}
+  /*======= begin icons ink ======*/
+.money_ink{
+  width: 57px;
+  height: 57px;
+}
+.handshake_ink{
+  width: 56px;
+  height: 48px;
+}
+.business_ink{
+  width: 52px;
+  height: 58px;
+}
+.safety_ink{
+  width: 57px;
+  height: 58px;
+}
+.money_ink,
+.handshake_ink,
+.business_ink,
+.safety_ink
+{
+  fill:$grey;
+}
+
+
+
+/*======= end icons ink ========*/
+/*======= end content ========*/
